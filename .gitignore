@@ -1,2 +1,9 @@
+# Environment files
+.env
 backend/.env
-backend/vendor
+
+# Node modules
+node_modules/
+
+# Vendor
+backend/vendor/

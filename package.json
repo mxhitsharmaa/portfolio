@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A clean, responsive personal portfolio website for Mohit Sharma, showcasing selected projects, development skills, services and contact information.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/tailwind.css",
+    "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxhitsharmaa/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "php",
+    "javascript",
+    "tailwindcss"
+  ],
+  "author": "Mohit Sharma",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mxhitsharmaa/portfolio/issues"
+  },
+  "homepage": "https://github.com/mxhitsharmaa/portfolio#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
