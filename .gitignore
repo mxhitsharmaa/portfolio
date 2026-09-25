@@ -1,9 +1,13 @@
-# Environment files
+# Environment
 .env
-backend/.env
+.env.*
 
-# Node modules
+# Node
 node_modules/
 
-# Vendor
+# PHP dependencies
 backend/vendor/
+
+# OS
+.DS_Store
+Thumbs.db
